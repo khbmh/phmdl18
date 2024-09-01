@@ -11,3 +11,18 @@ Create a simple JavaScript program that takes a student's score as input and ret
     F: 0-59
 
 ***/
+
+const print = `your grade is:`;
+const score = 72;
+
+if (100 >= score && score >= 90) {
+  console.log(print, `A`);
+} else if (89 >= score && score >= 80) {
+  console.log(print, `B`);
+} else if (79 >= score && score >= 70) {
+  console.log(print, `C`);
+} else if (69 >= score && score >= 60) {
+  console.log(print, `D`);
+} else if (59 >= score && score >= 0) {
+  console.log(print, `F`);
+}
